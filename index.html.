@@ -46,54 +46,54 @@
       border: 1px solid #f1d2de; border-radius: 30px;
       background: rgba(255,255,255,.72);
       box-shadow: 0 18px 60px rgba(169,79,112,.10);
-      backdrop-filter: blur(8px);
+      filtro de fondo : blur ( 8px ) ;​​​​​​​
     }
-    .eyebrow { letter-spacing: .22em; text-transform: uppercase; font: 11px Arial, sans-serif; color: #b87991; }
-    h1 { color: var(--rose); font-size: clamp(3.1rem, 12vw, 6.4rem); font-weight: 400; margin: 16px 0 8px; }
-    .subtitle { font-size: clamp(1.1rem, 4vw, 1.45rem); line-height: 1.7; max-width: 510px; margin: 0 auto 28px; }
-    .small-heart { color: var(--pink-strong); font-size: 25px; }
-    .btn {
-      border: 0; border-radius: 999px; padding: 14px 23px; cursor: pointer;
-      background: var(--rose); color: white; font: 14px Arial, sans-serif;
-      text-decoration: none; display: inline-flex; align-items: center; justify-content: center;
-      transition: transform .2s, box-shadow .2s;
-      box-shadow: 0 8px 20px rgba(169,79,112,.2);
+    . e y e br o w { l e t t e r - s p a c i n g : .22em ; text-transform: uppercase; font: 11px Arial, sans-serif; color: #b87991; }  
+    h 1 { c o l o r : var(--rose); font-size: clamp(3.1rem, 12vw, 6.4rem); font-weight: 400; margin: 16px 0 8px; }  
+    .subtitule { font - size : clamp ( 1.1rem , 4vw , 1.45rem ) ; line - height : 1.7; max - width: 510px ; margin: 0 auto 28px ; }  
+    .sm a l l - h e a r t { c o l o r : var(--pink-strong); font-size: 25px ; }  
+    . b t n { 
+      borde : 0; radio de borde: 999px; relleno: 14px 23px; cursor : puntero ;
+      fondo : var(--rose); color: blanco; fuente : 14px Arial , sans - serif ;
+      text - decoración : ninguna ; mostrar: inline - flex ; alinear -elementos: centro ; justificar - contenido : centro ;
+      transi : transform .2s , box - shadow .2s ;​
+      caja - sombra : 08px 20px rgba ( 169,79,112 , .2 ) ;
     }
-    .btn:hover { transform: translateY(-2px); box-shadow: 0 11px 24px rgba(169,79,112,.25); }
-    section { padding: 76px 20px; }
-    .wrap { width: min(100%, 780px); margin: 0 auto; }
-    .section-label { text-align: center; color: #b87991; font: 11px Arial, sans-serif; letter-spacing: .2em; text-transform: uppercase; }
-    h2 { color: var(--rose); text-align: center; font-size: clamp(2rem, 7vw, 3rem); font-weight: 400; margin: 12px 0 30px; }
-    .paper {
-      background: rgba(255,255,255,.82); border: 1px solid #f0d6e0;
-      border-radius: 24px; padding: clamp(24px, 6vw, 42px);
-      box-shadow: 0 12px 38px rgba(169,79,112,.07); line-height: 1.9; font-size: 1.08rem;
+    . b t n :hover { transform: translateY(-2px); box-shadow: 0 11px 24px rgba(169,79,112,.25); }
+    sección { relleno : 76px 20px ; }​​​​​​​​  
+    .w r a p { ancho : min (100%, 780px ); margen: 0 auto ; }  
+    .sección - etiqueta { texto - alineación : centro ; color : # b87991 ; fuente : 11px Arial , sans - serif ; espaciado entre letras: .2em ; transformación de texto: mayúsculas; }  
+    h 2 { c o l o r : var(--rose); text-align: center; font-size: clamp(2rem, 7vw, 3rem); font-weight: 400; margin: 12px 0 30px; }  
+    . papel {​​​​ 
+      fondo : rgba ( 255,255,255 , .82 ) ; borde : 1px sólido #f0d6e0 ;
+      borde - radio : 24px ; relleno : clamp(24px , 6vw , 42px ) ;
+      box - sh o w : 0 12px 38px rgba(169,79,112,.07); line - height: 1.9; font - size: 1.08rem ;
     }
-    .paper p { margin: 0 0 17px; }
-    .paper p:last-child { margin-bottom: 0; }
-    .memory {
-      text-align: center; background: rgba(255,255,255,.68);
-      border: 1px solid #f0d6e0; border-radius: 22px; padding: 28px 22px;
+    .paper { margin : 0017px ; }​​​​​​​​   
+    .pap e r p :last-child { margin-bottom: 0 ; } 
+    . memoria {​​​​​ 
+      text - align : center ; background : rgba( 255,255,255 ,.68 ) ;
+      borde : 1px sólido # f0d6e0 ; radio de borde: 22px; relleno: 28px 22px ;
     }
-    .memory .icon { font-size: 34px; }
-    .memory p { line-height: 1.8; margin-bottom: 0; }
-    .reasons { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 13px; }
-    .reason {
-      min-height: 100px; padding: 20px 14px; border: 1px solid #efd1dc;
-      border-radius: 18px; background: rgba(255,255,255,.8); color: var(--rose);
-      font: 14px Arial, sans-serif; cursor: pointer; line-height: 1.5;
+    .memoria.icon { tamaño de fuente : 34px ; }​​​​​​​​​​​​​​   
+    .memoryp { line - height : 1.8 ; margin - bottom : 0 ; }​​​​​​   
+    . razones { mostrar : cuadrícula ; columnas- de -plantilla - de - cuadrícula : repetir(2, minmax(0,1fr)); espacio : 13px ; }  
+    . razón {​​​​​ 
+      min - height : 100px ; padding : 20px 14px; border: 1px solid # efd1dc ;
+      borde - radio : 18px ; fondo : rgba ( 255,255,255 , .8 ) ; color: var(-- rose ) ;
+      f o n t : 14px Arial, sans-serif; cursor: pointer; line-height: 1.5;
     }
-    .reason span { display: block; font-size: 22px; margin-bottom: 8px; }
-    .reason:active { transform: scale(.98); }
-    .song { text-align: center; }
-    .vinyl {
-      width: 118px; height: 118px; border-radius: 50%; margin: 0 auto 20px;
-      background: repeating-radial-gradient(circle, #4e3441 0 2px, #694656 3px 5px);
-      display: grid; place-items: center; box-shadow: 0 10px 25px #9b637744;
-      animation: spin 8s linear infinite;
+    . r e a s o n s p a n { d i s p l a y : block; font-size: 22px; margin-bottom: 8px; }   
+    . razón : activo { transformar : escala(.98) ; }
+    .song { text - align : center ; }​​​​​​​​  
+    . vinyl {​​​​ 
+      ancho : 118px ; alto : 118px; radio de borde: 50%; margen: 0 auto 20px ;
+      fondo : repeating-radial - gradient ( circle , # 4e3441 0 2px , # 694656 3px 5px) ;
+      div : cuadrícula ; colocar -elementos: centro; sombra-caja: 0 10px 25px # 9b637744;
+      a nim t i ó n : spin 8s lineal infinito ;
     }
-    .vinyl::after { content: "♡"; width: 34px; height: 34px; display: grid; place-items: center;
-      border-radius: 50%; background: #f4cbd9; color: var(--rose); font-size: 20px; }
+    . v i n y l ::after { content: "♡"; width: 34px; height: 34px; display: grid; place-items: center;
+      borde - radio : 50 % ; fondo : # f4cbd9 ; color: var ( -- rose ) ; tamaño-fuente: 20px; }
     @keyframes spin { to { transform: rotate(360deg); } }
     .song-note { font: 13px Arial, sans-serif; line-height: 1.7; color: #91697a; margin: 16px auto 22px; max-width: 440px; }
     .final {
